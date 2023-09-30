@@ -1,0 +1,35 @@
+{
+  "name": "amaka-studio-test-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@radix-ui/react-toolbar": "^1.0.4",
+    "@strapi/plugin-documentation": "^4.14.0",
+    "@strapi/plugin-i18n": "4.14.0",
+    "@strapi/plugin-users-permissions": "4.14.0",
+    "@strapi/strapi": "4.14.0",
+    "better-sqlite3": "8.6.0",
+    "sharp": "^0.32.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b38c7094-16ca-4aa2-b741-94d6bb66f493"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/babel__generator": "^7.6.5"
+  }
+}
